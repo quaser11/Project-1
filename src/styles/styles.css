@@ -1,12 +1,12 @@
 :root {
     --color-accent: #8D86C9;
+    --color-sub-accnet: #F7ECE1;
     --color-secondary: #007AFF;
     --color-text: #333333;
     --color-background: #FFFFFF;
 }
 
 .container {
-    max-width: 1296px;
     margin: auto 312px;
 }
 
@@ -35,3 +35,4 @@
     border: none;
     cursor: pointer;
 }
+

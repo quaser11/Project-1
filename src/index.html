@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/services.css">
   <title>Document</title>
 </head>
 <body>
@@ -22,9 +23,9 @@
   <section class="benefits"></section>
   <section class="sport_club"></section>
   <section class="coach_squad">
-    <div class="container">
+    <div class="container coach_squad_content">
       <div class="coach_squad_top">
-        <span class="coach_squad__title font_l">Тренерский состав</span>
+        <h2 class="coach_squad__title font_l">Тренерский состав</h2>
         <div class="coach_squad_buttons">
           <button class="base_button">
             <svg width="24px" height="24px">
@@ -36,15 +37,110 @@
               <use href="../public/icons/bi_arrow-up-short.svg"></use>
             </svg>
           </button>
-          <div class="coach_squad_coaches">
-            <div class="coach_squad_coaches__item">
-
+        </div>
+      </div>
+      <ul class="coach_squad_coaches">
+        <li class="coach_squad_coaches__item">
+          <div class="coach_squad_coaches__item__image">
+            <img src="../public/images/coach-1.jpg" alt="">
           </div>
+          <span class="coach_squad_coaches__item__name font_m">
+            Pulmonary aliquot
+          </span>
+          <span class="coach_squad_coaches__item__text font_s">
+            Arcu elit massa amet turpis vel consequat pellentesque sit.
+          </span>
+        </li>
+        <li class="coach_squad_coaches__item">
+          <div class="coach_squad_coaches__item__image">
+            <img src="../public/images/coach-1.jpg" alt="">
+          </div>
+          <span class="coach_squad_coaches__item__name font_m">
+            Pulmonary aliquot
+          </span>
+          <span class="coach_squad_coaches__item__text font_s">
+            Arcu elit massa amet turpis vel consequat pellentesque sit.
+          </span>
+        </li>
+        <li class="coach_squad_coaches__item">
+          <div class="coach_squad_coaches__item__image">
+            <img src="../public/images/coach-1.jpg" alt="">
+          </div>
+          <span class="coach_squad_coaches__item__name font_m">
+            Pulmonary aliquot
+          </span>
+          <span class="coach_squad_coaches__item__text font_s">
+            Arcu elit massa amet turpis vel consequat pellentesque sit.
+          </span>
+        </li>
+        <li class="coach_squad_coaches__item">
+          <div class="coach_squad_coaches__item__image">
+            <img src="../public/images/coach-1.jpg" alt="">
+          </div>
+          <span class="coach_squad_coaches__item__name font_m">
+            Pulmonary aliquot
+          </span>
+          <span class="coach_squad_coaches__item__text font_s">
+            Arcu elit massa amet turpis vel consequat pellentesque sit.
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="services">
+    <div class="container services_content">
+      <div>
+        <h2 class="services__title font_l">Цены и абонементы</h2>
+        <ul class="services_list">
+          <li class="services_list__item">
+            <button class="services_list__item__button">
+              <span>Зимний старт 2021-2022</span>
+              <span>arrow</span>
+            </button>
+          </li>
+          <li class="services_list__item">
+            <button class="services_list__item__button">
+              <span>Зимний старт 2021-2022</span>
+              <span>arrow</span>
+            </button>
+          </li>
+          <li class="services_list__item">
+            <button class="services_list__item__button">
+              <span>Зимний старт 2021-2022</span>
+              <span>arrow</span>
+            </button>
+          </li>
+          <li class="services_list__item">
+            <button class="services_list__item__button">
+              <span>Зимний старт 2021-2022</span>
+              <span>arrow</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="services_images_content">
+        <div class="services_images_nav">
+          <h2 class="services__title font_l">Услуги</h2>
+          <div class="services_buttons">
+            <button class=" base_button">
+              <svg width="24px" height="24px">
+                <use href="../public/icons/bi_arrow-up-short.svg"></use>
+              </svg>
+            </button>
+            <button class="base_button">
+              <svg width="24px" height="24px">
+                <use href="../public/icons/bi_arrow-up-short.svg"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="services_image">
+          <img src="../public/images/cafe.jpg" alt="">
+          <span class="services_image__title font_m">Уютное кафе</span>
         </div>
       </div>
     </div>
   </section>
-  <section class="services"></section>
   <footer class="footer"></footer>
 </main>
 </body>

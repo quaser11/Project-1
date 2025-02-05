@@ -21,6 +21,7 @@ html {
  */
 
 body {
+    box-sizing: border-box;
     font-family: "Roboto", serif;
     margin: 0;
 }
@@ -147,6 +148,8 @@ sup {
  */
 
 img {
+    width: 100%;
+    height: auto;
     border-style: none;
 }
 
@@ -212,6 +215,10 @@ button::-moz-focus-inner,
     padding: 0;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+}
 /**
  * Restore the focus styles unset by the previous rule.
  */
