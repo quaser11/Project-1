@@ -1,0 +1,37 @@
+:root {
+    --color-accent: #8D86C9;
+    --color-secondary: #007AFF;
+    --color-text: #333333;
+    --color-background: #FFFFFF;
+}
+
+.container {
+    margin: auto 312px;
+}
+
+.font_l {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.font_m {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.font_s {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.base_button {
+    padding: 15px;
+    background-color: var(--color-accent);
+    color: var(--color-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

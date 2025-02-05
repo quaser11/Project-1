@@ -21,6 +21,7 @@ html {
  */
 
 body {
+    font-family: "Roboto", serif;
     width: 1920px;
     margin: 0;
 }
@@ -351,4 +352,26 @@ template {
 
 .container {
     margin: auto 312px;
+}
+
+.font_l {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.font_m {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.font_s {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.base_button {
+
 }

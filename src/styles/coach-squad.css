@@ -1,0 +1,14 @@
+.coach_squad_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coach_squad_buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.coach_squad__title {
+    color: var(--color-text);
+}
