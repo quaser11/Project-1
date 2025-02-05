@@ -21,6 +21,7 @@ html {
  */
 
 body {
+    width: 1920px;
     margin: 0;
 }
 
@@ -346,4 +347,9 @@ template {
 
 [hidden] {
     display: none;
+}
+
+.container {
+    margin: auto 312px;
+    height: 100vh;
 }
