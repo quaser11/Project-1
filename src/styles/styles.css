@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1296px;
     margin: auto 312px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .base_button {
-    padding: 15px;
+    padding: 7px;
     background-color: var(--color-accent);
     color: var(--color-text);
     border: none;
