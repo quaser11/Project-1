@@ -32,6 +32,5 @@
     background-color: var(--color-accent);
     color: var(--color-text);
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
